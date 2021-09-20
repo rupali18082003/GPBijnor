@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+::-webkit-scrollbar-track{
+	background: white;
+}
+::-webkit-scrollbar-thumb{
+	background: #006666;
+}
+
+
+body{
+	background-color: #d0e1e1;
+	color: black;
+	scrollbar-color: teal yellow;
+}
+.bg-teal{
+	background-color: teal;
+}
+.black-circle{
+	background-color: #009999;
+	border-radius: 34px;
+	height: 50px;
+	width: 50px;
+}
+.name{
+	text-align: center;
+	font-weight: bold;
+	color: #009999;
+	margin-top: 20px;
+}
+.clr{
+	color: #006666;
+}
+h1{
+	color: hsl(0, 0%, 100%);
+}
+.para{
+	color:  #009999;
+}
+.flex{
+	display: flex;
+}
+.crd{
+	font-family:  Inter;
+	font-weight: 400;
+	color: white;
+	background-color: #006666;
+	padding: 60px;
+}
+.crd h1{
+	color: hsl(0, 0%, 100%);
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+.para{
+	color:  hsla(0, 0%, 100%, 0.75);
+	font-family: 'Source Serif Pro', serif;
+}
+.img{
+	width: 100%;
+	background-color: #009999; 
+	background-blend-mode: multiply;  
+	background-repeat: no-repeat;
+}
+
+.con{
+	display: flex;
+}
+.con2{
+	margin: 10px;
+	color: hsla(0, 0%, 100%, 0.75);
+	text-transform: uppercase;
+}
+
+#about{
+	border: 2px solid #d0e1e1;
+	margin: 20px 40px auto 40px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 2px 2px 8px 8px #f3f3f3;
+}
+.heading{
+	color: #006666;
+	text-align: center;
+	margin-top: 10px;	
+	text-decoration: underline;
+	font-family:  Inter;
+}
+.about-para{
+	padding: 20px;
+	margin: 34px;
+	font-size: 20px;
+	color: #003333;
+	font-family: 'Source Serif Pro', serif;
+}
+.photos{
+	display: inline-flex;
+	margin: 40px;
+	text-align: center;
+	padding: 20px;
+}
+.imgs{
+	margin-left: 16%;
+	margin-top: 10px;
+	border-radius: 30px;
+}
+.center{
+	text-align: center;
+	border: none;
+}
+#staff{
+	box-shadow: 2px 2px 8px 8px #f3f3f3;
+	margin: 40px;
+	border-radius: 20px;
+}
+#gallery{
+	margin: 40px;
+}
+#contactUs{
+	background-color: #004d4d;
+	background-blend-mode: multiply;
+	background-image: url(images/img1.jpg);
+	background-size: cover;
+	/*height: 400px;*/
+	margin: 40px;
+	color: white;
+	text-align: center;
+	padding: auto 20px auto 20px;
+}
+.conMethod{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 30px;
+
+}
+.conMethod a{
+	text-decoration: none;
+}
+#map{
+	padding: 20px;
+}
+#map iframe{
+	/*height: 30%;*/
+	width: 100%;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	background-color: #003333;
+	margin: 20px 40px 0px 40px;
+}
